@@ -1,0 +1,16 @@
+Configuration:
+name: Default
+
+Appenders:
+  Console:
+    name: Console
+    target: SYSTEM_OUT
+    PatternLayout:
+      pattern: "%d [%t] %-5p %c - %m%n"
+Loggers:
+  Logger:
+    - name: net.littlethunder
+      additivity: false
+      level: debug
+      AppenderRef:
+        - ref: Console
