@@ -6,7 +6,8 @@ Appenders:
     name: Console
     target: SYSTEM_OUT
     PatternLayout:
-      pattern: "%d [%t] %-5p %c - %m%n"
+      #pattern: "%d [%t] %-5p %c - %m%n"
+      pattern: "%m%n"
 Loggers:
   Logger:
     - name: net.littlethunder

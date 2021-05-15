@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "6.0.0-m2"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.apache.logging.log4j:log4j-api:2.14.+'
+
+    implementation 'org.apache.logging.log4j:log4j-core:2.14.+'
+
+    runtimeOnly 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.5' //required for log config
+    runtimeOnly 'com.fasterxml.jackson.core:jackson-databind:2.8.5' //required for log config
+
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+}
+
+test {
+    useJUnitPlatform()
+}
