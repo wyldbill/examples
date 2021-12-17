@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/wyldbill/dev/examples/scala-modernInfiniteLoop/project/target/.sbt-compilation-infos/scala-moderninfiniteloop-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/wyldbill/dev/examples/scala-modernInfiniteLoop/src/main/scala/net/littlethunder/infinite/Infinte.scala:20:11: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    Array(ret)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/wyldbill/dev/examples/scala-modernInfiniteLoop/project/target/.sbt-compilation-infos/scala-moderninfiniteloop-compile/.sbt-idea-lock.[0m
